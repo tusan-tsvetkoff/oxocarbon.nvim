@@ -259,7 +259,7 @@
 (custom-set-face! "@lsp.type.function.go" [] {:link "@function"})
 (custom-set-face! "@lsp.type.method.go" [] {:link "@method"})
 (custom-set-face! "@lsp.type.macro.go" [] {:link "Macro"})
-(custom-set-face! "@lsp.type.keyword.go" [] {:link "@keyword"})
+(custom-set-face! "@lsp.type.keyword.go" [] {:link "Structure"})
 (custom-set-face! "@lsp.type.comment.go" [] {:link "@comment"})
 (custom-set-face! "@lsp.type.string.go" [] {})
 (custom-set-face! "@lsp.type.number.go" [] {:link "@number"})
@@ -790,5 +790,9 @@
 ;; flash
 
 (custom-set-face! :FlashLabel [:bold] {:fg oxocarbon.base05 :bg oxocarbon.base00})
+
+;; go-ts
+
+(custom-set-face! "@type.builtin.go" [] {:link "@type.builtin"})
 
 { : oxocarbon }

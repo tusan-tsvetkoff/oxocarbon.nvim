@@ -87,13 +87,14 @@ Nyoom comes bundled with a version of oxocarbon. Enable the `ui.nyoom` module
 
 ## Development
 
-You must install [hotpot](https://github.com/rktjmp/hotpot.nvim), since is what is used for compiling the fennel code.
+You must install [hotpot](https://github.com/rktjmp/hotpot.nvim), since it is what is used for compiling the fennel code.
 
 ### Workflow
 
 * Fork the project
 * Make changes in the files under `fnl/`
-* Compile your changes by running `:Fnlfile make.fnl`
+* If Neovim asks about `.hotpot.fnl`, open it and run `:trust` once
+* Compile your changes by running `:Hotpot sync context=. force`
 * Make a PR
 
 ## License
