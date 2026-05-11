@@ -299,6 +299,8 @@
 (custom-set-face! "@lsp.typemod.variable.shadowing.go" [:underline] {})
 
 (custom-set-face! "@lsp.typemod.variable.struct.go" [] {:link "@variable.member"})
+(custom-set-face! "@lsp.typemod.method.signature.go" [] {:link "@method"})
+
 
 (custom-set-face! "@lsp.typemod.namespace.defaultLibrary.go" [] {:link "@module.builtin"})
 (custom-set-face! "@lsp.typemod.namespace.definition.go" [:bold] {:link "@module"})

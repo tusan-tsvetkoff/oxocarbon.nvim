@@ -184,6 +184,7 @@ vim.api.nvim_set_hl(0, "@lsp.typemod.typeParameter.definition.go", {fg = oxocarb
 vim.api.nvim_set_hl(0, "@lsp.typemod.parameter.shadowing.go", {underline = true})
 vim.api.nvim_set_hl(0, "@lsp.typemod.variable.shadowing.go", {underline = true})
 vim.api.nvim_set_hl(0, "@lsp.typemod.variable.struct.go", {link = "@variable.member"})
+vim.api.nvim_set_hl(0, "@lsp.typemod.method.signature.go", {link = "@method"})
 vim.api.nvim_set_hl(0, "@lsp.typemod.namespace.defaultLibrary.go", {link = "@module.builtin"})
 vim.api.nvim_set_hl(0, "@lsp.typemod.namespace.definition.go", {link = "@module", bold = true})
 vim.api.nvim_set_hl(0, "@lsp.typemod.function.definition.go", {link = "@function", bold = true})
