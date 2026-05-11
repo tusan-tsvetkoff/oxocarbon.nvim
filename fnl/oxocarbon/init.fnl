@@ -212,7 +212,7 @@
 (custom-set-face! "@lsp.type.property" [] {:link "@property"})
 (custom-set-face! "@lsp.type.regexp" [] {:link "@string.regex"})
 (custom-set-face! "@lsp.type.selfKeyword" [] {:link "@variable.builtin"})
-(custom-set-face! "@lsp.type.string" [] {:link "@string"})
+(custom-set-face! "@lsp.type.string" [] {})
 (custom-set-face! "@lsp.type.string.rust" [] {:link "@string"})
 (custom-set-face! "@lsp.type.typeAlias" [] {:link "@type.definition"})
 (custom-set-face! "@lsp.type.unresolvedReference" [] {:link "Error"})
