@@ -185,75 +185,69 @@
 (custom-set-face! "@lsp.type.class" [] {:link "Structure"})
 (custom-set-face! "@lsp.type.decorator" [] {:link "Decorator"})
 (custom-set-face! "@lsp.type.decorator.markdown" [] {:link "Structure"})
-(custom-set-face! "@lsp.type.event" [] {:link "@type"})
+(custom-set-face! "@lsp.type.enum" [] {:link "@type"})
+(custom-set-face! "@lsp.type.enumMember" [] {:link "@constant"})
+(custom-set-face! "@lsp.type.event" [] {:link "@constant"})
 (custom-set-face! "@lsp.type.function" [] {:link "@function"})
 (custom-set-face! "@lsp.type.interface" [] {:link "Structure"})
 (custom-set-face! "@lsp.type.macro" [] {:link "Macro"})
 (custom-set-face! "@lsp.type.method" [] {:link "@function"})
-(custom-set-face! "@lsp.type.modifier" [] {:link "@keyword"})
+(custom-set-face! "@lsp.type.namespace" [] {:link "@module"})
+(custom-set-face! "@lsp.type.parameter" [] {:link "@variable.parameter"})
+(custom-set-face! "@lsp.type.property" [] {:link "@property"})
 (custom-set-face! "@lsp.type.struct" [] {:link "Structure"})
 (custom-set-face! "@lsp.type.type" [] {:link "Type"})
+(custom-set-face! "@lsp.type.typeAlias" [] {:link "@type.definition"})
 (custom-set-face! "@lsp.type.typeParameter" [] {:link "Typedef"})
+(custom-set-face! "@lsp.type.variable" [] {})
+
+(custom-set-face! "@lsp.type.comment" [] {:link "@comment"})
+(custom-set-face! "@lsp.type.keyword" [] {:link "@keyword"})
+(custom-set-face! "@lsp.type.number" [] {:link "@number"})
+(custom-set-face! "@lsp.type.operator" [] {:link "@operator"})
+(custom-set-face! "@lsp.type.string" [] {})
+
 (custom-set-face! "@lsp.type.selfParameter" [] {:link "@variable.builtin"})
 (custom-set-face! "@lsp.type.builtinConstant" [] {:link "@constant.builtin"})
 (custom-set-face! "@lsp.type.magicFunction" [] {:link "@function.builtin"})
 (custom-set-face! "@lsp.type.boolean" [] {:link "@boolean"})
 (custom-set-face! "@lsp.type.builtinType" [] {:link "@type.builtin"})
-(custom-set-face! "@lsp.type.comment" [] {:link "@comment"})
-(custom-set-face! "@lsp.type.enum" [] {:link "@type"})
-(custom-set-face! "@lsp.type.enumMember" [] {:link "@constant"})
 (custom-set-face! "@lsp.type.escapeSequence" [] {:link "@string.escape"})
 (custom-set-face! "@lsp.type.formatSpecifier" [] {:link "@punctuation.special"})
-(custom-set-face! "@lsp.type.keyword" [] {:link "@keyword"})
-(custom-set-face! "@lsp.type.namespace" [] {:link "@namespace"})
-(custom-set-face! "@lsp.type.number" [] {:link "@number"})
-(custom-set-face! "@lsp.type.operator" [] {:link "@operator"})
-(custom-set-face! "@lsp.type.parameter" [] {:link "@parameter"})
-(custom-set-face! "@lsp.type.property" [] {:link "@property"})
 (custom-set-face! "@lsp.type.regexp" [] {:link "@string.regex"})
 (custom-set-face! "@lsp.type.selfKeyword" [] {:link "@variable.builtin"})
-(custom-set-face! "@lsp.type.string" [] {})
 (custom-set-face! "@lsp.type.string.rust" [] {:link "@string"})
-(custom-set-face! "@lsp.type.typeAlias" [] {:link "@type.definition"})
 (custom-set-face! "@lsp.type.unresolvedReference" [] {:link "Error"})
-(custom-set-face! "@lsp.type.variable" [] {:link "@variable"} )
 
-(custom-set-face! "@lsp.mod.abstract" [:italic] {})
-(custom-set-face! "@lsp.mod.async" [] {:link "@keyword"})
-(custom-set-face! "@lsp.mod.declaration" [:bold] {})
-(custom-set-face! "@lsp.mod.defaultLibrary" [] {:link "Special"})
-(custom-set-face! "@lsp.mod.definition" [:bold] {})
 (custom-set-face! "@lsp.mod.deprecated" [:strikethrough] {})
-(custom-set-face! "@lsp.mod.documentation" [] {:link "Comment"})
-(custom-set-face! "@lsp.mod.modification" [:underline] {})
 (custom-set-face! "@lsp.mod.readonly" [] {:link "@constant"})
 (custom-set-face! "@lsp.mod.static" [] {:link "@constant"})
+(custom-set-face! "@lsp.mod.interface" [] {:link "Structure"})
+(custom-set-face! "@lsp.mod.struct" [] {:link "Structure"})
 (custom-set-face! "@lsp.mod.typeHint" [] {:link "Type"})
 (custom-set-face! "@lsp.mod.builtin" [] {:link "Special"})
+
 (custom-set-face! "@lsp.typemod.class.defaultLibrary" [] {:link "@type.builtin"})
 (custom-set-face! "@lsp.typemod.enum.defaultLibrary" [] {:link "@type.builtin"})
 (custom-set-face! "@lsp.typemod.enumMember.defaultLibrary" [] {:link "@constant.builtin"})
 (custom-set-face! "@lsp.typemod.function.defaultLibrary" [] {:link "@function.builtin"})
+(custom-set-face! "@lsp.typemod.function.builtin" [] {:link "@function.builtin"})
+(custom-set-face! "@lsp.typemod.function.readonly" [] {:link "@method"})
 (custom-set-face! "@lsp.typemod.interface.defaultLibrary" [] {:link "@type.builtin"})
+(custom-set-face! "@lsp.typemod.interface.interface" [] {:link "Structure"})
 (custom-set-face! "@lsp.typemod.keyword.async" [] {:link "@keyword.coroutine"})
 (custom-set-face! "@lsp.typemod.macro.defaultLibrary" [] {:link "@function.builtin"})
 (custom-set-face! "@lsp.typemod.method.defaultLibrary" [] {:link "@function.builtin"})
 (custom-set-face! "@lsp.typemod.namespace.defaultLibrary" [] {:link "@type.builtin"})
-(custom-set-face! "@lsp.typemod.operator.injected" [] {:link "@operator"})
 (custom-set-face! "@lsp.typemod.property.readonly" [] {:link "@constant"})
-(custom-set-face! "@lsp.typemod.string.injected" [] {:link "@string"})
 (custom-set-face! "@lsp.typemod.struct.defaultLibrary" [] {:link "@type.builtin"})
-(custom-set-face! "@lsp.typemod.operator.controlFlow" [] {:link "@exception"})
-(custom-set-face! "@lsp.typemod.keyword.documentation" [] {:link "Special"})
 (custom-set-face! "@lsp.typemod.type.defaultLibrary" [] {:link "@type.builtin"})
+(custom-set-face! "@lsp.typemod.type.definition" [:bold] {:fg oxocarbon.base09 :bg oxocarbon.none})
+(custom-set-face! "@lsp.typemod.type.interface" [] {:link "Structure"})
+(custom-set-face! "@lsp.typemod.type.struct" [] {:link "Structure"})
 (custom-set-face! "@lsp.typemod.typeParameter.defaultLibrary" [] {:link "@type.builtin"})
-(custom-set-face! "@lsp.typemod.variable.global" [] {:link "@constant"})
 (custom-set-face! "@lsp.typemod.variable.static" [] {:link "@constant"})
-(custom-set-face! "@lsp.typemod.variable.defaultLibrary" [] {:link "Special"})
-(custom-set-face! "@lsp.typemod.function.builtin" [] {:link "@function.builtin"})
-(custom-set-face! "@lsp.typemod.function.readonly" [] {:link "@method"})
 (custom-set-face! "@lsp.typemod.variable.defaultLibrary" [] {:link "@variable.builtin"})
-(custom-set-face! "@lsp.typemod.variable.injected" [] {:link "@variable"})
 
 ;; gutter
 
@@ -476,11 +470,13 @@
 
 (custom-set-face! "@function.macro" [] {:fg oxocarbon.base07 :bg oxocarbon.none})
 (custom-set-face! "@method" [] {:fg oxocarbon.base07 :bg oxocarbon.none})
+(custom-set-face! "@function.method" [] {:link "@method"})
 
 ;; @method.call
 
 (custom-set-face! "@constructor" [] {:fg oxocarbon.base09 :bg oxocarbon.none})
 (custom-set-face! "@parameter" [] {:fg oxocarbon.base04 :bg oxocarbon.none})
+(custom-set-face! "@variable.parameter" [] {:link "@parameter"})
 
 ;;; keywords
 
@@ -503,6 +499,7 @@
 
 (custom-set-face! "@type" [] {:link "Type"})
 (custom-set-face! "@type.builtin" [] {:link "Type"})
+(custom-set-face! "@type.definition" [] {:link "Typedef"})
 
 ;; @type.defintion
 ;; @type.qualifier
@@ -512,6 +509,7 @@
 (custom-set-face! "@attribute" [] {:fg oxocarbon.base15 :bg oxocarbon.none})
 (custom-set-face! "@field" [] {:fg oxocarbon.base04 :bg oxocarbon.none})
 (custom-set-face! "@property" [] {:fg oxocarbon.base10 :bg oxocarbon.none})
+(custom-set-face! "@variable.member" [] {:link "@property"})
 
 ;;; identifiers
 
@@ -521,6 +519,7 @@
 (custom-set-face! "@constant.builtin" [] {:fg oxocarbon.base07 :bg oxocarbon.none})
 (custom-set-face! "@constant.macro" [] {:fg oxocarbon.base07 :bg oxocarbon.none})
 (custom-set-face! "@namespace" [] {:fg oxocarbon.base07 :bg oxocarbon.none})
+(custom-set-face! "@module" [] {:link "@namespace"})
 (custom-set-face! "@symbol" [:bold]
                   {:fg oxocarbon.base15 :bg oxocarbon.none})
 
