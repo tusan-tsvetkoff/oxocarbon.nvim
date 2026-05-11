@@ -254,10 +254,10 @@
 (custom-set-face! "@lsp.type.type.go" [] {:link "@type"})
 (custom-set-face! "@lsp.type.typeParameter.go" [] {:link "Typedef"})
 (custom-set-face! "@lsp.type.parameter.go" [] {:link "@variable.parameter"})
-(custom-set-face! "@lsp.type.property.go" [] {:link "@property"})
+(custom-set-face! "@lsp.type.property.go" [] {:link "@variable.member"})
 (custom-set-face! "@lsp.type.variable.go" [] {})
 (custom-set-face! "@lsp.type.function.go" [] {:link "@function"})
-(custom-set-face! "@lsp.type.method.go" [] {:link "@method"})
+(custom-set-face! "@lsp.type.method.go" [] {:link "@function.method"})
 (custom-set-face! "@lsp.type.macro.go" [] {:link "Macro"})
 (custom-set-face! "@lsp.type.keyword.go" [] {:link "Structure"})
 (custom-set-face! "@lsp.type.comment.go" [] {:link "@comment"})
@@ -297,6 +297,18 @@
 (custom-set-face! "@lsp.typemod.typeParameter.definition.go" [:bold] {:fg oxocarbon.base09 :bg oxocarbon.none})
 (custom-set-face! "@lsp.typemod.parameter.shadowing.go" [:underline] {})
 (custom-set-face! "@lsp.typemod.variable.shadowing.go" [:underline] {})
+
+(custom-set-face! "@lsp.typemod.namespace.defaultLibrary.go" [] {:link "@module.builtin"})
+(custom-set-face! "@lsp.typemod.namespace.definition.go" [:bold] {:link "@module"})
+
+(custom-set-face! "@lsp.typemod.function.definition.go" [:bold] {:link "@function"})
+(custom-set-face! "@lsp.typemod.method.definition.go" [:bold] {:link "@function.method"})
+
+(custom-set-face! "@lsp.typemod.property.definition.go" [:bold] {:link "@variable.member"})
+(custom-set-face! "@lsp.typemod.property.static.go" [] {:link "@constant"})
+
+(custom-set-face! "@lsp.typemod.parameter.definition.go" [:bold] {:link "@variable.parameter"})
+(custom-set-face! "@lsp.typemod.parameter.readonly.go" [] {:link "@constant"})
 
 ;; gutter
 
